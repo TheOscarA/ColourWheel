@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+canvas {
+  display: block; /* This ensures there is no extra space below the canvas */
+  width: 100%; /* makes circle as big as possible */
+  height: 100%; /* makes circle as big as possible */
+}
